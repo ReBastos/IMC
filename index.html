@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightslategray;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 430px;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      input {
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>IMC</h1>
+      <input type="number" id="peso" placeholder="Peso (kg)" />
+      <input type="number" id="altura" placeholder="Altura (cm)" />
+      <button onclick="imc()">Calcular</button>
+      <h2 id="resultado"></h2>
+      <h2 id="classificacao"></h2>
+    </div>
+    <img src="unnamed.png">
+
+    
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
